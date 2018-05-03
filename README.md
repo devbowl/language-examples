@@ -1,2 +1,3 @@
-# python-example
-An example Python environment for Devbowl using the ubuntu base.
+# Devbowl Language Example
+
+An example for Devbowl using the ubuntu base that shows how to set-up many different languages.
