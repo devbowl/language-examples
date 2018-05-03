@@ -23,3 +23,6 @@ WORKDIR /home/user/projects/python3
 RUN virtualenv -p /usr/bin/python3.6 venv
 RUN /bin/bash -c "source venv/bin/activate && pip install -r requirements.txt"
 WORKDIR /
+
+# Docs setup.
+COPY docs /home/user/docs
